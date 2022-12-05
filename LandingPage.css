@@ -1,0 +1,283 @@
+
+/*How can I make auto scroll down when I refresh the page*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /*knowledge font use need to be review*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+    padding: 8px 0px;
+    background-color: #1F2937 ;
+    
+    color: aliceblue;
+    
+
+}
+
+.stablizer{
+    display: flex;
+}
+
+
+.logo{
+    display: block;
+
+    margin-right: 260px;
+
+    font-weight: bold;
+    
+
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ .nav{
+  margin: 0px 5px;
+  font-weight: 500;
+  font-size: 15px ;
+  
+}
+
+/*Check the flex shrink class*/
+
+.banner{
+
+
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+    background-color: #1F2937;
+    height: 300px;
+
+    justify-content: center;
+
+    padding: 60px 30px;
+
+    color: aliceblue;
+}
+
+.bannercontent.content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    
+  
+    margin-left: 60px;
+    margin-top: 5px;
+    
+}
+
+.maintext{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.mainword{
+    font-size: 12px;
+}
+
+ .button{
+    display: block;
+    color: #f6f6f6;
+    background-color: #3882f6 ;;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+
+    font-weight: bold;
+
+   text-align: center;
+   padding: 4px 0;
+   margin-top: 10px;
+
+}
+
+/*Selector knowledge need to be reviewed */
+.image {
+    font-size: 12px;
+
+    width: 300px;
+    height: 150px;
+    
+    padding-top: 65px;
+
+    background-color: #626875;
+    border-radius: 5px;
+
+    
+    margin-left: 50px;
+
+    text-align: center;
+
+}
+
+.infotitle{
+    display: block;
+
+    text-align: center;
+    padding: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/*Make sure every blocks are treated as a whole*/
+.infolist{
+    display: block;
+    
+    padding: 20px 100px;
+
+    display: flex;
+    justify-content:center ;
+
+}
+
+
+
+.infoitem{
+    display: block;
+    flex-direction: column;
+
+    margin:0px 10px;
+
+    width: 150px;
+
+    align-items: center;
+}
+
+
+
+.infoitem div{
+    width: 120px;
+
+    font-size: 13px;
+    text-align: center;
+}
+
+.box{
+    display: block;
+
+    width: 120px;
+    height: 120px;
+
+    margin-bottom: 10px;
+
+    border-color:#3882f6 ;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.quote{
+    display: block;
+
+    background-color: #ececec;
+
+    margin-top: 30px;
+    padding: 100px 200px;
+
+}
+
+.quote div{
+    display: block;
+}
+
+.italy{
+    font-style: italic;
+    font-size: 25px;
+}
+
+.author{
+    margin-top: 10px;
+
+    text-align: right;
+
+    font-weight: bold;
+}
+
+.call{
+    display: block;
+
+    display: flex;
+
+
+    padding: 120px  0px;
+
+    justify-content: center;
+
+
+
+}
+
+.callbox{
+    display: block;
+    display: flex;
+
+    width: 700px;
+    height: 150px;
+
+    background-color: #3882f6;
+    border-radius: 20px;
+}
+
+.callboxcontent{
+    display: block;
+    flex-direction: column;
+
+    padding: 60px 60px;
+
+    color: #ececec;
+    
+}
+
+.callboxcontent span{
+    display: block;
+    
+    margin-bottom: 2px;
+
+    font-weight: bolder;
+}
+
+
+.callbutton{
+    display: block;
+    color: #f6f6f6;
+    background-color: #3882f6 ;;
+    border-radius: 5px;
+    border: white solid 2px;
+    width: 100px;
+    height: 35px;
+
+    font-weight: bold;
+
+   text-align: center;
+   padding: 4px 0;
+   margin-top: 10px;
+
+}
+
+.copyright{
+    display: block;
+
+    background-color: #1F2937;
+
+    padding: 20px 0px;
+
+    font-size: 10px;
+    color:white ;
+
+    text-align: center;
+}
